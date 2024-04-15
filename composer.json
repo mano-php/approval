@@ -1,5 +1,5 @@
 {
-    "name": "uupt/approval",
+    "name": "uupt-open/approval",
     "alias": "审批模块",
     "description": "UU审批模块",
     "type": "library",
@@ -16,8 +16,8 @@
     "require": {
         "php": ">=8.0",
         "slowlyo/owl-admin": "*",
-        "uupt/corps": "v1.0.3",
-        "uupt/filesystem": "*"
+        "uupt-open/corps": "v1.0.3",
+        "uupt-open/filesystem": "*"
     },
     "autoload": {
         "psr-4": {
