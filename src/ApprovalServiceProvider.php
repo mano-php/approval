@@ -12,50 +12,22 @@ use Uupt\Approval\Library\DataSourcesManager;
 
 class ApprovalServiceProvider extends ServiceProvider
 {
-    public function install()
-    {
-        parent::install();
-        $this->installMenu();
-    }
-    protected function installMenu(): void
-    {
-        $demo_menu_id = AdminMenu::query()->insertGetId([
-            'parent_id' => 0,
-            'order' => 0,
-            'title' => '审批测试',
-            'icon' => 'fluent-mdl2:document-approval',
-            'url' => '/approval_demo',
-            'url_type' => 1,
-            'visible' => 1,
-            'is_home' => 0,
-            'keep_alive' => 0,
-            'iframe_url' => NULL,
-            'component' => 'amis',
-            'is_full' => 0,
-            'extension' => NULL,
-            'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => date('Y-m-d H:i:s')
-        ]);
-        AdminMenu::query()->insert([
-            [
-                'parent_id' => $demo_menu_id,
-                'order' => 100,
-                'title' => '新闻发布',
-                'icon' => 'arcticons:bangkok-biznews',
-                'url' => '/news',
-                'url_type' => 1,
-                'visible' => 1,
-                'is_home' => 0,
-                'keep_alive' => 0,
-                'iframe_url' => NULL,
-                'component' => NULL,
-                'is_full' => 0,
-                'extension' => NULL,
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s')
-            ]
-        ]);
-    }
+    protected $menu = [
+        [
+            'parent'   => '',
+            'title'    => '审批测试',
+            'url'      => '/approval_demo',
+            'url_type' => '1',
+            'icon'     => 'fluent-mdl2:document-approval',
+        ],
+        [
+            'parent'   => '审批测试',
+            'title'    => '新闻发布',
+            'url'      => '/news',
+            'url_type' => '1',
+            'icon'     => 'arcticons:bangkok-biznews',
+        ],
+    ];
 
     public function boot()
     {
