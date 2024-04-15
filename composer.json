@@ -1,0 +1,36 @@
+{
+    "name": "uupt/approval",
+    "alias": "审批模块",
+    "description": "UU审批模块",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["owl-admin", "extension"],
+    "homepage": "https://github.com/uupt/approval",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "UU跑腿",
+            "email": "admin@uupt.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "slowlyo/owl-admin": "*",
+        "uupt/corps": "v1.0.3",
+        "uupt/filesystem": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uupt\\Approval\\": "src/"
+        }
+    },
+    "extra": {
+        "owl-admin": "Uupt\\Approval\\ApprovalServiceProvider",
+        "laravel": {
+            "providers": [
+                "Uupt\\Approval\\ApprovalServiceProvider",
+                "Uupt\\Approval\\ApprovalEventProvider"
+            ]
+        }
+    }
+}
