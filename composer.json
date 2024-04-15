@@ -16,7 +16,7 @@
     "require": {
         "php": ">=8.0",
         "slowlyo/owl-admin": "*",
-        "uupt-open/corps": "v1.0.3",
+        "uupt-open/corps": "*",
         "uupt-open/filesystem": "*"
     },
     "autoload": {
