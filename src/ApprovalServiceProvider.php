@@ -14,7 +14,7 @@ class ApprovalServiceProvider extends ServiceProvider
 {
     protected $menu = [
         [
-            'parent'   => 0,
+            'parent'   => '',
             'title'    => '审批测试',
             'url'      => '/approval_demo',
             'url_type' => '1',
