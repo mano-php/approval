@@ -8,7 +8,7 @@ use Slowlyo\OwlAdmin\Renderers\Page;
 use Slowlyo\OwlAdmin\Renderers\Form;
 use Slowlyo\OwlAdmin\Controllers\AdminController;
 use ManoCode\Approval\Services\ApprovalInstanceService;
-use UUPT\Corp\Library\DingHttp;
+use ManoCode\Corp\Library\DingHttp;
 
 /**
  * 审批实例
