@@ -1,14 +1,14 @@
 <?php
 
-namespace Uupt\Approval\Library;
+namespace mano-code\Approval\Library;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Facades\Log;
 use Slowlyo\OwlAdmin\Admin;
-use Uupt\Approval\Models\ApprovalBind;
-use Uupt\Approval\Models\InstanceBind;
-use Uupt\Approval\Models\ProcessCodeBind;
+use mano-code\Approval\Models\ApprovalBind;
+use mano-code\Approval\Models\InstanceBind;
+use mano-code\Approval\Models\ProcessCodeBind;
 use UUPT\Corp\Library\DingHttp;
 use UUPT\Corp\Models\Employee;
 

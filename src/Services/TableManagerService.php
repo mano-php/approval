@@ -1,5 +1,5 @@
 <?php
-namespace Uupt\Approval\Services;
+namespace mano-code\Approval\Services;
 use GuzzleHttp\Client;
 use JetBrains\PhpStorm\NoReturn;
 use Slowlyo\OwlAdmin\Services\AdminCodeGeneratorService;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Uupt\Approval\Http\Controllers;
+namespace mano-code\Approval\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -8,9 +8,9 @@ use Slowlyo\OwlAdmin\Renderers\Page;
 use Slowlyo\OwlAdmin\Renderers\Form;
 use Slowlyo\OwlAdmin\Controllers\AdminController;
 use Slowlyo\OwlAdmin\Support\CodeGenerator\Generator;
-use Uupt\Approval\Models\ApprovalBind;
-use Uupt\Approval\Services\ApprovalBindService;
-use Uupt\MiniWechat\Models\Member;
+use mano-code\Approval\Models\ApprovalBind;
+use mano-code\Approval\Services\ApprovalBindService;
+use mano-code\MiniWechat\Models\Member;
 
 /**
  * 审批流关联

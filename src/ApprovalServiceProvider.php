@@ -1,14 +1,14 @@
 <?php
 
-namespace Uupt\Approval;
+namespace mano-code\Approval;
 
 use Illuminate\Support\Facades\Event;
 use Slowlyo\OwlAdmin\Extend\Extension;
 use Slowlyo\OwlAdmin\Models\AdminMenu;
 use Slowlyo\OwlAdmin\Renderers\TextControl;
 use Slowlyo\OwlAdmin\Extend\ServiceProvider;
-use Uupt\Approval\DataSources\NewsDataSources;
-use Uupt\Approval\Library\DataSourcesManager;
+use mano-code\Approval\DataSources\NewsDataSources;
+use mano-code\Approval\Library\DataSourcesManager;
 
 class ApprovalServiceProvider extends ServiceProvider
 {

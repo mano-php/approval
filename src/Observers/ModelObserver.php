@@ -1,15 +1,15 @@
 <?php
 
-namespace Uupt\Approval\Observers;
+namespace mano-code\Approval\Observers;
 
 use Illuminate\Support\Facades\DB;
 use Slowlyo\OwlAdmin\Admin;
 use Slowlyo\OwlAdmin\Models\AdminRole;
 use Slowlyo\OwlAdmin\Models\AdminUser;
 use Slowlyo\OwlAdmin\Models\BaseModel as Model;
-use Uupt\Approval\Library\DataSourcesManager;
-use Uupt\Approval\Models\ApprovalBind;
-use Uupt\Approval\Models\ApprovalInstance;
+use mano-code\Approval\Library\DataSourcesManager;
+use mano-code\Approval\Models\ApprovalBind;
+use mano-code\Approval\Models\ApprovalInstance;
 use UUPT\Corp\Library\DingHttp;
 use UUPT\Corp\Models\Employee;
 

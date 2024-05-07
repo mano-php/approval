@@ -1,13 +1,13 @@
 <?php
 
-namespace Uupt\Approval\Services;
+namespace mano-code\Approval\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use Uupt\Approval\Models\ApprovalBind;
+use mano-code\Approval\Models\ApprovalBind;
 use Slowlyo\OwlAdmin\Services\AdminService;
 use UUPT\Corp\Library\DingHttp;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Uupt\Approval;
+namespace mano-code\Approval;
 
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use Uupt\Approval\Listeners\ApprovalEventHandler;
+use mano-code\Approval\Listeners\ApprovalEventHandler;
 use UUPT\Corp\Events\DingNotify\BpmsTaskChangeEvent;
 
 /**

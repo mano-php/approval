@@ -1,10 +1,10 @@
 <?php
 
-namespace Uupt\Approval\DataSources;
+namespace mano-code\Approval\DataSources;
 
 use Illuminate\Database\Eloquent\Model;
-use Uupt\Approval\Library\DataSourcesAbstract;
-use Uupt\Approval\Models\News;
+use mano-code\Approval\Library\DataSourcesAbstract;
+use mano-code\Approval\Models\News;
 
 /**
  * 新闻数据源

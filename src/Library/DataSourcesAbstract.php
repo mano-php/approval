@@ -1,8 +1,8 @@
 <?php
 
-namespace Uupt\Approval\Library;
-use Uupt\Approval\Models\News;
-use Uupt\Approval\Models\ProcessCodeBind;
+namespace mano-code\Approval\Library;
+use mano-code\Approval\Models\News;
+use mano-code\Approval\Models\ProcessCodeBind;
 
 /**
  * 数据源抽象类

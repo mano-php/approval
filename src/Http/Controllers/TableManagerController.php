@@ -1,6 +1,6 @@
 <?php
 
-namespace Uupt\Approval\Http\Controllers;
+namespace mano-code\Approval\Http\Controllers;
 
 use Slowlyo\OwlAdmin\Admin;
 use Illuminate\Http\Request;
@@ -16,7 +16,7 @@ use Slowlyo\OwlAdmin\Support\CodeGenerator\RouteGenerator;
 use Slowlyo\OwlAdmin\Support\CodeGenerator\ServiceGenerator;
 use Slowlyo\OwlAdmin\Support\CodeGenerator\MigrationGenerator;
 use Slowlyo\OwlAdmin\Support\CodeGenerator\ControllerGenerator;
-use Uupt\Approval\Services\TableManagerService;
+use mano-code\Approval\Services\TableManagerService;
 
 /**
  * @property TableManagerService $service
