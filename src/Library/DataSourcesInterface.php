@@ -1,6 +1,6 @@
 <?php
 
-namespace Uupt\Approval\Library;
+namespace ManoCode\Approval\Library;
 use Illuminate\Database\Eloquent\Model;
 
 /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace Uupt\Approval\Services;
+namespace ManoCode\Approval\Services;
 
 use Illuminate\Support\Facades\DB;
-use Uupt\Approval\Models\ApprovalBind;
-use Uupt\Approval\Models\ApprovalInstance;
+use ManoCode\Approval\Models\ApprovalBind;
+use ManoCode\Approval\Models\ApprovalInstance;
 use Slowlyo\OwlAdmin\Services\AdminService;
 use UUPT\Corp\Library\DingHttp;
 use UUPT\Corp\Models\Employee;

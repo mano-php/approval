@@ -1,13 +1,13 @@
 <?php
 
-namespace Uupt\Approval\Http\Controllers;
+namespace ManoCode\Approval\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Slowlyo\OwlAdmin\Renderers\Page;
 use Slowlyo\OwlAdmin\Renderers\Form;
 use Slowlyo\OwlAdmin\Controllers\AdminController;
-use Uupt\Approval\Services\ApprovalInstanceService;
+use ManoCode\Approval\Services\ApprovalInstanceService;
 use UUPT\Corp\Library\DingHttp;
 
 /**

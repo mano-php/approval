@@ -1,10 +1,10 @@
 <?php
 
-namespace Uupt\Approval\Services;
+namespace ManoCode\Approval\Services;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
-use Uupt\Approval\Models\News;
+use ManoCode\Approval\Models\News;
 use Slowlyo\OwlAdmin\Services\AdminService;
 
 /**

@@ -6,6 +6,6 @@
 ```php
 
     \UUPT\Corp\Events\DingNotify\BpmsTaskChangeEvent::class=>[
-        \Uupt\Approval\Listeners\ApprovalEventHandler::class,
+        \ManoCode\Approval\Listeners\ApprovalEventHandler::class,
     ],
 ```

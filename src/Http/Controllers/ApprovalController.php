@@ -1,6 +1,6 @@
 <?php
 
-namespace Uupt\Approval\Http\Controllers;
+namespace ManoCode\Approval\Http\Controllers;
 
 use Slowlyo\OwlAdmin\Controllers\AdminController;
 

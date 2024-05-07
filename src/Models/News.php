@@ -1,6 +1,6 @@
 <?php
 
-namespace Uupt\Approval\Models;
+namespace ManoCode\Approval\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Slowlyo\OwlAdmin\Admin;

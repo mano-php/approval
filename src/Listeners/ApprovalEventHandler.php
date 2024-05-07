@@ -1,12 +1,12 @@
 <?php
 
-namespace Uupt\Approval\Listeners;
+namespace ManoCode\Approval\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Log\Logger;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Support\Facades\Log;
-use Uupt\Approval\Library\DataSourcesManager;
+use ManoCode\Approval\Library\DataSourcesManager;
 use UUPT\Corp\Events\DingNotify\BpmsTaskChangeEvent;
 
 class ApprovalEventHandler implements ShouldQueue

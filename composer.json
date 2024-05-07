@@ -21,15 +21,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Uupt\\Approval\\": "src/"
+            "ManoCode\\Approval\\": "src/"
         }
     },
     "extra": {
-        "owl-admin": "Uupt\\Approval\\ApprovalServiceProvider",
+        "owl-admin": "ManoCode\\Approval\\ApprovalServiceProvider",
         "laravel": {
             "providers": [
-                "Uupt\\Approval\\ApprovalServiceProvider",
-                "Uupt\\Approval\\ApprovalEventProvider"
+                "ManoCode\\Approval\\ApprovalServiceProvider",
+                "ManoCode\\Approval\\ApprovalEventProvider"
             ]
         }
     }

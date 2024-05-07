@@ -1,11 +1,11 @@
 <?php
 
-namespace Uupt\Approval\Http\Controllers;
+namespace ManoCode\Approval\Http\Controllers;
 
 use Slowlyo\OwlAdmin\Renderers\Page;
 use Slowlyo\OwlAdmin\Renderers\Form;
 use Slowlyo\OwlAdmin\Controllers\AdminController;
-use Uupt\Approval\Services\NewsService;
+use ManoCode\Approval\Services\NewsService;
 
 /**
  * 新闻发布
