@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use ManoCode\Approval\Models\ApprovalBind;
 use Slowlyo\OwlAdmin\Services\AdminService;
-use UUPT\Corp\Library\DingHttp;
+use ManoCode\Corp\Library\DingHttp;
 
 /**
  * 审批流关联

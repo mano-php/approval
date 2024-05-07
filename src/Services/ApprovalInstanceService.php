@@ -6,8 +6,8 @@ use Illuminate\Support\Facades\DB;
 use ManoCode\Approval\Models\ApprovalBind;
 use ManoCode\Approval\Models\ApprovalInstance;
 use Slowlyo\OwlAdmin\Services\AdminService;
-use UUPT\Corp\Library\DingHttp;
-use UUPT\Corp\Models\Employee;
+use ManoCode\Corp\Library\DingHttp;
+use ManoCode\Corp\Models\Employee;
 
 /**
  * 审批实例

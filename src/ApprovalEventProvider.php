@@ -6,7 +6,7 @@ use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use ManoCode\Approval\Listeners\ApprovalEventHandler;
-use UUPT\Corp\Events\DingNotify\BpmsTaskChangeEvent;
+use ManoCode\Corp\Events\DingNotify\BpmsTaskChangeEvent;
 
 /**
  *

@@ -1,23 +1,25 @@
 {
-    "name": "uupt-open/approval",
+    "name": "mano-code/approval",
     "alias": "审批模块",
-    "description": "UU审批模块",
+    "description": "审批模块",
     "type": "library",
     "version": "1.0.0",
-    "keywords": ["owl-admin", "extension"],
-    "homepage": "https://github.com/uupt/approval",
+    "keywords": [
+        "extension"
+    ],
+    "homepage": "https://github.com/mano-php/approval",
     "license": "MIT",
     "authors": [
         {
-            "name": "UU跑腿",
-            "email": "admin@uupt.com"
+            "name": "Mano",
+            "email": "mano@qq.com"
         }
     ],
     "require": {
         "php": ">=8.0",
         "slowlyo/owl-admin": "*",
-        "uupt-open/corps": "*",
-        "uupt-open/filesystem": "*"
+        "mano-code/corps": "*",
+        "mano-code/filesystem": "*"
     },
     "autoload": {
         "psr-4": {

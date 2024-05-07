@@ -10,8 +10,8 @@ use Slowlyo\OwlAdmin\Models\BaseModel as Model;
 use ManoCode\Approval\Library\DataSourcesManager;
 use ManoCode\Approval\Models\ApprovalBind;
 use ManoCode\Approval\Models\ApprovalInstance;
-use UUPT\Corp\Library\DingHttp;
-use UUPT\Corp\Models\Employee;
+use ManoCode\Corp\Library\DingHttp;
+use ManoCode\Corp\Models\Employee;
 
 /**
  * 模型观察者

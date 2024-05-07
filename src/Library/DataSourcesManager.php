@@ -9,8 +9,8 @@ use Slowlyo\OwlAdmin\Admin;
 use ManoCode\Approval\Models\ApprovalBind;
 use ManoCode\Approval\Models\InstanceBind;
 use ManoCode\Approval\Models\ProcessCodeBind;
-use UUPT\Corp\Library\DingHttp;
-use UUPT\Corp\Models\Employee;
+use ManoCode\Corp\Library\DingHttp;
+use ManoCode\Corp\Models\Employee;
 
 /**
  * 数据来源管理
