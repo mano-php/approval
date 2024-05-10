@@ -3,7 +3,7 @@
     "alias": "审批模块",
     "description": "审批模块",
     "type": "library",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "keywords": [
         "extension"
     ],

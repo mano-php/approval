@@ -13,14 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('instance_bind', function (Blueprint $table) {
-            $table->comment('审批模板数据关联');
-            $table->increments('id');
-            $table->string('instance_id')->index()->comment('实例ID');
-            $table->bigInteger('key_id')->index()->comment('主键ID');
-            $table->timestamps();
-            $table->softDeletes();
-        });
+        if(!Schema::hasTable('instance_bind')){
+            Schema::create('instance_bind', function (Blueprint $table) {
+                $table->comment('审批模板数据关联');
+                $table->increments('id');
+                $table->string('instance_id')->index()->comment('实例ID');
+                $table->bigInteger('key_id')->index()->comment('主键ID');
+                $table->timestamps();
+                $table->softDeletes();
+            });
+        }
     }
 
     /**
