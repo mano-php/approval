@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('approval_bind');
+        Schema::dropIfExists('instance_bind');
     }
 };
