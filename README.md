@@ -12,7 +12,7 @@
      */
     protected $listen = [
         // ...........
-        \ManoCode\Corp\Events\DingNotify\BpmsTaskChangeEvent::class=>[
+        \ManoCode\Corp\Events\DingNotify\DefaultEvent::class=>[
             \ManoCode\Approval\Listeners\ApprovalEventHandler::class,
         ],
         // ...........
