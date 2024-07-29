@@ -5,7 +5,6 @@ namespace ManoCode\Approval\Http\Controllers;
 use Slowlyo\OwlAdmin\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use Slowlyo\OwlAdmin\Controllers\DevTools\Schema\CodeGeneratorSchema;
 use Slowlyo\OwlAdmin\Services\AdminMenuService;
 use Slowlyo\OwlAdmin\Traits\IconifyPickerTrait;
 use Slowlyo\OwlAdmin\Controllers\AdminController;
@@ -23,7 +22,7 @@ use ManoCode\Approval\Services\TableManagerService;
  */
 class TableManagerController extends AdminController
 {
-    use CodeGeneratorSchema, IconifyPickerTrait;
+    use IconifyPickerTrait;
 
     protected string $serviceName = TableManagerService::class;
 
